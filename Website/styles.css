@@ -1,0 +1,42 @@
+body{
+    background: rgb(60,69,86);
+    background: radial-gradient(circle, #3c4556 60%, #22284c 100%);
+}
+nav 
+{
+    background-color: lightcyan;
+    margin: 0;
+    padding-top: 10px;
+    width: 13%;
+    height: 100%;
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+
+nav li
+{
+    display: block;
+    padding: 25px 16px;
+}
+
+nav li a
+{  
+    text-align: center;
+    padding: 25px 16px;
+    margin-bottom: 10px;
+}
+
+nav li a:hover {background-color: lightgray}
+
+div{
+    padding-top: 10px;
+    margin-left: 15%;
+}
+
+table, th, td
+{
+    border-bottom: 1px solid;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 15px;
+}
